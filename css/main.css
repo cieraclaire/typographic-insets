@@ -87,3 +87,7 @@ footer {
 */
 
 /* Write your CSS here */
+figure {
+  float: right;
+  width: 300px;
+}
