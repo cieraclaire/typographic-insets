@@ -93,13 +93,28 @@ figure {
   width: 300px;
 }
 
-blockquote p {
+blockquote {
   float: left;
   width: 300px;
   display: block;
   color: #666;
   border-style: solid;
-  border-width: 3px 0px 3px 0px;
+  border-width: 3px 0 3px 0;
   font-size: 1.5rem;
+}
 
+figcaption {
+  font-style: italic;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+}
+
+p:first-child::first-letter {
+  color: #ccc;
+  font-size: 5rem;
+  border-style: solid;
+  border-width: 3px 0 3px 0;
+  border-color: #333;
+  background-color: #666;
+  font-style: normal;
 }
